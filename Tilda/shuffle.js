@@ -89,7 +89,7 @@ if (cursorImageUrl) {
   });
 
   // ------------------ Hammer.js Swipe & Drag ------------------
-  const cardContainer = document.querySelector('.stacked__cards-list');
+  const cardContainer = document.querySelector('.stacked-cards');
   const hammer = new Hammer(cardContainer);
   hammer.get('swipe').set({ direction: Hammer.DIRECTION_HORIZONTAL });
   hammer.get('pan').set({ direction: Hammer.DIRECTION_HORIZONTAL });
